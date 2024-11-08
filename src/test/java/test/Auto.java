@@ -11,7 +11,7 @@ public class Auto {
 
   public int cantidadAsientos(){
     int cantidad = 0;
-    for (int = 0; i < this.asientos.length; i++){
+    for (int i = 0; i < this.asientos.length; i++){
       if (this.asientos[i] instanceof Asiento){
         cantidad +=1;
       }
