@@ -7,11 +7,19 @@ public class Auto {
   String marca;
   Motor motor;
   int registro;
-  String cantidadCreados;
+  Static String cantidadCreados;
 
   public int cantidadAsientos(){
-    return 0;
+    return asientos.length()
   }
 
-
+  public String verifiarIntegridad(){
+    for (int i = 0; i < this.asientos.length(); i++){
+      if (this.registro != this.motor.registro || this. registro != this.asientos[i].registro){
+        return "Las piezas no son originales"
+      } else{
+        return "Auto original"
+      }
+    }
+  }
 }
