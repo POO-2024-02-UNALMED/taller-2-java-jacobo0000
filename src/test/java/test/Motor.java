@@ -6,12 +6,12 @@ public class Motor {
   int registro;
 
   public void cambiarRegistro(int nuevoRegistro){
-    this.registro = nuevoRegistro
+    this.registro = nuevoRegistro;
   }
 
   public void asignarTipo(String nuevoTipo){
     if (nuevoTipo == electrico || nuevoTipo == gasolina){
-      this.tipo = nuevoTipo
+      this.tipo = nuevoTipo;
     }
   }
 
