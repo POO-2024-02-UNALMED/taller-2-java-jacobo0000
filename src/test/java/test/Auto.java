@@ -22,6 +22,6 @@ public class Auto {
         return "Auto original";
       }
     }
-    return 
+    return; 
   }
 }
