@@ -10,11 +10,11 @@ public class Auto {
   static String cantidadCreados;
 
   public int cantidadAsientos(){
-    return asientos.length();
+    return asientos.length;
   }
 
   public String verifiarIntegridad(){
-    for (int i = 0; i < this.asientos.length(); i++){
+    for (int i = 0; i < this.asientos.length; i++){
       if (this.registro != this.motor.registro || this. registro != this.asientos[i].registro){
         return "Las piezas no son originales";
       } else{
