@@ -9,11 +9,11 @@ public class Auto {
   int registro;
   static String cantidadCreados;
 
-  public int cantidadAsientos(){
+  public int cantidadAsientos(x){
     int cantidad = 0
-    for (int = 0; i<this.asientos.length; i++){
-      if (this.asientos[i] instanceof Asiento){
-        cantidad +=1
+    for (int = 0; i<x.length; i++){
+      if (x[i] instanceof Asiento){
+        cantidad +=1;
       }
     }
     return cantidad;
