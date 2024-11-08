@@ -10,7 +10,13 @@ public class Auto {
   static String cantidadCreados;
 
   public int cantidadAsientos(){
-    return asientos.length;
+    int cantidad = 0
+    for (int = 0; i<this.asientos.length; i++){
+      if (this.asientos[i] instanceof Asiento){
+        cantidad +=1
+      }
+    }
+    return cantidad;
   }
 
   public String verificarIntegridad(){
